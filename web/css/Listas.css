@@ -1,0 +1,93 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 05/07/2018, 21:16:58
+    Author     : Bea
+*/
+.img-header{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    max-width: 90%;
+}
+.lugar{
+    background-image: url('./images/backgroundprodutos.jpg');
+}
+.drinks{
+    background-image: url('./images/background.jpeg');
+}
+.drinks-image{
+    max-width: 20%;
+    margin-top:-30px;
+    margin-right:50px;
+    margin-bottom: 50px;
+    max-height:30%
+}
+.produtos-image{
+    max-width: 20%;
+    margin-top:30px;
+    margin-right:50px;
+    margin-bottom: 50px;
+    max-height: 100%
+}
+.main-footer{
+    position:relative;
+    padding:10px;
+}
+.footer-section{
+    display:inline-block;
+    vertical-align: top;
+    width:32%;
+    min-width: 230px;
+}
+.ancora{
+    position:absolute;
+    top:-85px;
+}
+.nav{
+    top:0;
+    left:0;
+    right:0;
+    background-color:#161616;
+    z-index: 100;
+}
+.nav-list{
+    padding:0;
+}
+.nav-list-item{
+    display:inline-block;
+    padding:15px;
+}
+.nav-link{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-link:hover{
+    color:#FFD700;
+}
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f7f5e6;}
+
+#customers tr:hover {background-color: #fefa91;}
+
+#customers th {
+    text-align: left;
+    background-color: #161616;
+    color: white;
+}
+
